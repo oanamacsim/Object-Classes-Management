@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/category-selector.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Home</title>
+</head>
+<body>
+
+<header>
+    <div>
+        <div>
+            <span> <a href="index.html">Home</a></span>
+            <span><a href="scholarly.html">Documentation</a></span>
+        </div>
+        <div>
+            <span><a href="administrareClasaDeObiecte.html">Manage account</a></span>
+            <span><a href="login.html">Login</a></span>
+        </div>
+    </div>
+</header>
+
+<div class="search-bar" style="margin-top:50px; margin-left:100px">
+    <div class="search-category">
+        <div class="category-dropdown">
+            <label for="category-name">Select a category:</label>
+            <select name="category-name" id="category-name">
+                <option value="none">Selecteaza</option>
+                <option value="apartamente">Apartamente</option>
+                <option value="magazine">Magazine</option>
+            </select>
+        </div>
+
+        <div class="select-category">
+            <label>Selected Categories:</label>
+            <div class="selected-categories-buttons">
+                <button>Apartamente-</button>
+                <button>Magazine-</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-products">
+        <form>
+            <label for="search-product"></label><input type="text" id="search-product" name="search"
+                                                       placeholder="cautare produs...">
+            <button type="submit" style="margin: 10px;">Search</button>
+        </form>
+    </div>
+</div>
+
+<div class="product-container">
+    <div class="product-item">
+        <a href="administrareClasaDeObiecte.html" style="text-decoration: none; color: black">
+            <img src="images/fideliaCasa.png" class="product-image" alt="">
+            <div class="product-details">
+                <p class="product-title">Fidelia Casa</p>
+                <p class="product-category">Categorie: Agentii imobiliare</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-item">
+        <a href="administrareClasaDeObiecte.html" style="text-decoration: none; color: black">
+            <img src="images/imobiliare.png" class="product-image" alt="">
+            <div class="product-details">
+                <p class="product-title">Imobiliare.ro</p>
+                <p class="product-category">Categorie: Agentii imobiliare</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-item">
+        <a href="administrareClasaDeObiecte.html" style="text-decoration: none; color: black">
+            <img src="images/mammaMia.png" class="product-image" alt="">
+            <div class="product-details">
+                <p class="product-title">Mamma Mia</p>
+                <p class="product-category">Categorie: Magazine</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-item">
+        <a href="administrareClasaDeObiecte.html" style="text-decoration: none; color: black">
+            <img src="images/fideliaCasa.png" class="product-image" alt="">
+            <div class="product-details">
+                <p class="product-title">Fidelia Casa</p>
+                <p class="product-category">Categorie: Agentii imobiliare</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-item">
+        <a href="administrareClasaDeObiecte.html" style="text-decoration: none; color: black">
+            <img src="images/imobiliare.png" class="product-image" alt="">
+            <div class="product-details">
+                <p class="product-title">Imobiliare.ro</p>
+                <p class="product-category">Categorie: Agentii imobiliare</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-item">
+        <a href="administrareClasaDeObiecte.html" style="text-decoration: none; color: black">
+            <img src="images/mammaMia.png" class="product-image" alt="">
+            <div class="product-details">
+                <p class="product-title">Mamma Mia</p>
+                <p class="product-category">Categorie: Magazine</p>
+            </div>
+            <a href="administrareClasaDeObiecte.html" style="text-decoration: none; color: black">
+    </div>
+</div>
+
+
+<footer>
+    <div class="footer-container">
+        <section>
+            <h3>Subscribe to our newsletter</h3>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Follow us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/example">Facebook</a></li>
+                <li><a href="https://www.twitter.com/example">Twitter</a></li>
+                <li><a href="https://www.instagram.com/example">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/documentation">Documentation</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </section>
+    </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Title</title>
+</head>
+<body>
+
+<header>
+    <div>
+        <div>
+            <span> <a href="index.html">Home</a></span>
+            <span><a href="scholarly.html">Documentation</a></span>
+        </div>
+        <div>
+            <span><a href="administrareClasaDeObiecte.html">Manage account</a></span>
+            <span><a href="login.html">Login</a></span>
+        </div>
+    </div>
+</header>
+
+<h1 style="text-align: center">Administrare clase de obiecte</h1>
+
+<form style="display: flex; justify-content: center; align-items: center; margin: 30px; ">
+    <label for="search"></label><input type="text" id="search" name="search" placeholder="clasa de obiecte...">
+    <button type="submit" style="margin: 10px;">Search</button>
+</form>
+
+<div class="product-container">
+    <div class="product-item">
+        <img src="images/fideliaCasa.png" class="product-image" alt="">
+        <div class="product-details">
+            <p class="product-title">Fidelia Casa</p>
+            <p class="product-category">Categorie: Agentii imobiliare</p>
+            <div class="product-controls">
+                <button onClick="window.location.href='administrareClasa.html';" class="edit-product-btn">Edit</button>
+                <button class="remove-product-btn">Remove</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-item">
+        <img src="images/imobiliare.png" class="product-image" alt="">
+        <div class="product-details">
+            <p class="product-title">Imobiliare.ro</p>
+            <p class="product-category">Categorie: Agentii imobiliare</p>
+            <div class="product-controls">
+                <button onClick="window.location.href='administrareClasa.html';" class="edit-product-btn">Edit</button>
+                <button class="remove-product-btn">Remove</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-item">
+        <img src="images/mammaMia.png" class="product-image" alt="">
+        <div class="product-details">
+            <p class="product-title">Mamma Mia</p>
+            <p class="product-category">Categorie: Magazine</p>
+            <div class="product-controls">
+                <button onClick="window.location.href='administrareClasa.html';" class="edit-product-btn">Edit</button>
+                <button class="remove-product-btn">Remove</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="management-container">
+    <div class="create-item">
+        <h4> Adauga clasa de obiecte:</h4>
+        <form>
+            <label for="title">Titlu:</label>
+            <input type="text" id="title" name="title"><br><br>
+
+            <label for="category">Categorie:</label>
+            <input type="text" id="category" name="category"><br><br>
+
+            <input type="submit" value="Adauga">
+        </form>
+    </div>
+
+    <div class="manage-categories">
+        <div class="search-category">
+            <div class="search-input">
+                <label>
+                    <input type="text" placeholder="Cauta o categorie..">
+                </label>
+                <button>Cauta</button>
+            </div>
+            <div class="search-result">
+                <button>Apartmente-</button>
+                <button>Magazine-</button>
+            </div>
+        </div>
+        <div class="add-category">
+            <label for="title">Adauga categorie noua:</label>
+            <label>
+                <input type="text" placeholder="Nume categorie..">
+            </label>
+            <button>Adauga</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <section>
+            <h3>Subscribe to our newsletter</h3>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Follow us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/example">Facebook</a></li>
+                <li><a href="https://www.twitter.com/example">Twitter</a></li>
+                <li><a href="https://www.instagram.com/example">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/documentation">Documentation</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </section>
+    </div>
+</footer>
+
+</body>
+</html>
